@@ -1,0 +1,11 @@
+import turtle 
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+alex = turtle.Turtle()
+alex.color("blue")
+alex.pensize(3)
+alex.right(45)
+alex.forward(30)
+alex.left(90)
+alex.forward(200)
+wn.exitonclick()
